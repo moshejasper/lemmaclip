@@ -19,3 +19,5 @@ Imports:
     dplyr,
     magrittr,
     readr
+URL: https://github.com/moshejasper/lemmaclip
+BugReports: https://github.com/moshejasper/lemmaclip/issues

@@ -1,11 +1,14 @@
 Package: lemmaclip
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Clip Vocab by Frequency for Logos Visual Filters
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: 
+    person("Moshe", "Jasper", , "mossuselihu@gmail.com", role = c("aut", "cre"))
+Maintainer: Moshe Jasper <mossuselihu@gmail.com>
+Description: Uses a reformatted version of the freely available Greek frequency vocab 
+    spreadsheet and filters by frequency for pasting into logos.
+    Currently only available for Greek. 
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.2.1

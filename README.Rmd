@@ -29,6 +29,8 @@ You can install the development version of lemmaclip from [GitHub](https://githu
 devtools::install_github("moshejasper/lemmaclip")
 ```
 
+The functions in this package only work on Windows. 
+
 ## Example
 
 Here is how you NT vocab at the 19-20 level:

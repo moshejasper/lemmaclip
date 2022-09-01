@@ -9,10 +9,10 @@ lemmaclip(lower, upper = 50000)
 \arguments{
 \item{lower}{positive int. lowest NT vocab freq. to include.}
 
-\item{upper}{positive int. highest NT vocab freq. to include.}
+\item{upper}{positive int. include NT vocab BELOW this frequency (i.e. not this frequency).}
 }
 \value{
-clips information to clipboard. no important return.
+clips lemma query to clipboard. Returns tibble of clipped lemmas with relevant data
 }
 \description{
 Filter lemmas to clipboard
